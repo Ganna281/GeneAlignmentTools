@@ -31,7 +31,7 @@ def Local_Protein_Alignment(X, Y, gap):
     print("Full matrix:")
     print(matrix)
     print("print final score", max1)  # print final score
-
+    print("Hello")
     Seq1 = ""
     Seq2 = ""
     LAMatch = ""
