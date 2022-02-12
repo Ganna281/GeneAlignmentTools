@@ -52,7 +52,7 @@ def global_alignment_DNA(X, Y, gap, match, mismatch):
             GAFirst += "-"
             GAMatch += " "
             GASecond += Y[i - 1]
-            i -= 1
+            i -= 2
         else:
             GAFirst += X[j - 1]
             GASecond += "-"
